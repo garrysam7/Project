@@ -1,0 +1,27 @@
+Technical Documentation
+------------------------
+1. Introduction
+This project is an education portfolio showcasing projects and tutorials. Users interact with a frontend application to view content, and backend APIs handle data management.
+
+2. Application Architecture
+- Frontend: HTML, CSS, JavaScript.
+- Backend: FastAPI with Python.
+- Database: SQLite for user data.
+
+3. REST API Endpoints
+- GET /users: Fetch all users.
+- POST /users: Add a new user.
+- GET /welcome: Welcome message.
+
+4. Database Schema
+Table: Users
+Fields:
+  - id (Primary Key, Auto-increment)
+  - name (Text, Not Null)
+  - email (Text, Unique, Not Null)
+
+5. Flowchart
+Refer to the saved image: application_workflow.png
+
+6. Screenshots
+Refer to the screenshots placeholder: screenshots_placeholder.txt
